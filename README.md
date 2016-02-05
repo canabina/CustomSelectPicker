@@ -69,7 +69,7 @@ Events
 | ------------- | ------------- |
 | onChange  | Call when select change state. Takes jquery object select element |
 | onReady  | Call when plugin redy to work. Nothin takes |
-| onScrollDropdown  | Call when in dropdown heppen scroll event. Takes state on scroll in dropdown (up or down)  |
+| onScrollDropdown  | Call when in dropdown happens scroll event. Takes state on scroll in dropdown (up or down)  |
 | dropdownStatus  | Call when dropdown change state. Takes state in dropdown (show or hide)  |
 
 Options 
