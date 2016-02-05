@@ -38,7 +38,7 @@ Include minify or unminify plugin assets in head tag
 </html>
 ```
 
-Options and Events
+Options and Events example
 ------------
 ```JavaScript
 $('select').CSelectPicker({
@@ -62,7 +62,23 @@ $('select').CSelectPicker({
 		// console.log('Dropdown status is - ('+status+')');
 	},
 });
-
 ```
+Events 
+------------
+| Event name  | description |
+| ------------- | ------------- |
+| onChange  | Call when select change state. Takes jquery object select element |
+| onReady  | Call when plugin redy to work. Nothin takes |
+| onScrollDropdown  | Call when in dropdown heppen scroll event. Takes state on scroll in dropdown (up or down)  |
+| dropdownStatus  | Call when dropdown change state. Takes state in dropdown (show or hide)  |
+
+Options 
+------------
+| Option name  | description |
+| ------------- | ------------- |
+| placehoder  | (string) Placeholder text in selectpicker. No required |
+| multiple  | (boolean) Change selectpicker on multiselect.  No required |
+| itemsClass  |  (string) Added custom class in the item-option on dropdown window.  No required  |
+| maxDropdownItemsShow  | (number) Sets max number to show option items in dropdown window. Create scrollbar .No required   |
 
 
