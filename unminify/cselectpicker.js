@@ -206,8 +206,7 @@ $.fn.CSelectPicker = function(settings){
 						{
 							elementToRemove.removeClass('CSP-active');
 
-
-							var valuesSelect = self.removeToItemInArray(selectElem.val(), ''+dataRemove+'');
+							var valuesSelect = self.removeToItemInArray(selectElem.val(), '"'+dataRemove+'"');
 
 							var i = values[selectElem.attr('name')].indexOf(''+dataRemove+'');
 
@@ -271,6 +270,9 @@ $.fn.CSelectPicker = function(settings){
 
 		function construct(settings)
 		{
+			if (!settings) 
+				settings = {};
+
 			$.extend(self.settings, settings);
 
 			self.createHtml();
