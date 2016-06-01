@@ -29,7 +29,8 @@ Include minify or unminify plugin assets in head tag
   		<option value="first">first</option>
   		<option value="second">second</option>
   	</select>
-		
+  	
+	//Init plugin	
   	<script type="text/javascript">
   	  $('select').CSelectPicker();
   	</script>
